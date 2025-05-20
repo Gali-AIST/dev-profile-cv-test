@@ -58,6 +58,30 @@ h2 {
   color: #333;
 }
 
+.paper {
+  margin-bottom: 0rem;
+}
+
+.paper h3 {
+  margin: 0;
+  color: #333;
+}
+
+.paper p {
+  display: block;
+  font-size: 1rem;
+  color: #464343;
+  margin-bottom: 0.5rem;
+  font-style:italic; 
+}
+
+.affil {
+  display: block;
+  font-size: 1rem;
+  color: #374d77;
+  margin-bottom: 0.1rem;
+}
+
 .date {
   display: block;
   font-size: 0.85rem;
@@ -84,3 +108,9 @@ ul {
   font-size: 0.9rem;
 }
 
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+  /*  all: unset;
+    cursor: pointer; */
+}
